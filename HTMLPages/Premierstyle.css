@@ -41,3 +41,12 @@ header{
     margin:auto;
 }
 
+tr section{
+    height: 41px;
+    line-height: 24px;
+}
+
+td section{
+    min-width: 30px;
+    text-align: center;
+}
