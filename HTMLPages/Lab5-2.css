@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-<link href="Lab5-2.css" rel"stylesheet">
-<style>
-    body{
+body{
     margin: 0;
 }
 
@@ -55,31 +47,3 @@ black selector {
 white selector{
     background: linear-gradient, to right, #444 0%, #222 100%
 }
-    
-    
-
-</style> 
-    
-</head>
-
-<body>
-    <header>
-        <h1>Css Piano Keys</h1>
-    </header>
-    
-    <ul id="piano">
-        <li class="white"></li>
-        <li class="black"></li>
-        <li class="white"></li>
-        <li class="black"></li>
-        <li class="white"></li>
-        <li class="black"></li>
-        <li class="white"></li>
-        <li class="white"></li>
-        <li class="black"></li>
-        <li class="white"></li>
-        <li class="black"></li>
-        <li class="white"></li>
-    </ul>
-</body>
-</html>
