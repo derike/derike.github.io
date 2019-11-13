@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+<style>
+    .pokemon-card{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        padding: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 212px;
+        width: 120px;
+
+        
+    }
+    
+    img-container{
+        background:rgba(255,255,255,0.6);
+        margin-top: 30px;
+        withd: 120px;
+        height: 120px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+    }
+    
+    .number{
+        font-size: 5px;
+        background: rgba(0,0,0,0.1);
+        padding: 5px 10px 5px 10px;
+    }
+    
+    body > div{
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    ::placeholder{
+        color: white;
+    }
+    
+    
+</style>   
+    
+    
+    
+    
+    
+    
+</head>
+
+<body>
+    
+    <h1>Pokemon Search</h1>
+
+    <div>
+    
+        <input type="text" id="searchinput" onkeyup="filterResults()" placeholder="Search for pokemon name or type."
+    
+    </div>
+        
+    <section>
+        <div class="pokemon-card grass">
+        <div class="img-container">
+            <img src="1-bulbasaur-grass.png">
+            </div>
+        <div class="number">#001</div>
+        <div class="name">Bulbasaur</div>
+        <div class="type">Type: grass</div>
+        </div>
+    
+    </section>
+</body>
+</html>
