@@ -11,14 +11,14 @@ nav{
     background-color: white;
     display: flex;
     flex-direction: row;
-  
 }
 
 
 table{
     max-width: 900px;
     margin: auto;
-    width: 35%;
+    width: 20%;
+    align-content: center;
 }
 
 h1 nav{
@@ -33,7 +33,7 @@ td {
 }
 
 section{
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     margin: auto;
 }
@@ -56,19 +56,38 @@ td section{
 
 .cart{
     margin-top: 35px;
-    margin-right: 25px
+    margin-right: 200px
  
 }
 
 section{
     background-color: black;
     color: white;
-    max-width: 2000px
+    max-width: 2000px;
+    max-height: 20px;
 }
 
 .freeshipping{
-    text-align:center;
-    margin-left: 290px;
+    text-align: center;
     font-size: 12px;
+    display: flex;
+    flex-direction:row;
+    margin-left: 680px
+    
+}
+ 
+body{
+    overflow:scroll;
 }
 
+.support{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    object-position: center;
+    width: 50%
+}
+
+.Quad{
+    margin-left: 200px;
+}
