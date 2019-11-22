@@ -75,9 +75,7 @@ section{
     margin-left: 680px
     
 }
- 
-body{
-    overflow:scroll;
+
 }
 
 .support{
@@ -91,3 +89,5 @@ body{
 .Quad{
     margin-left: 200px;
 }
+
+.content-card{
